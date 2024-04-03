@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AGRO STORE</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="shortcut icon" href="img/icons/main_icon.svg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="css/media.min.css">
+</head>
+<body>
+    <section class="promo">
+        <div class="container">
+            <header class="header" id="promo__header">
+                <div class="header__logo"><a href="#"><img src="img/base/main__logo.png" alt=""></a></div>
+                <div class="header__control">
+                    <a href="#" class="header__liked"> <img src="img/icon/heart.svg"alt=""></a>
+                    <a href="#" class="header__account"> <img src="img/icon/account.svg"alt=""></a>
+                    <button class="header__buy"><a href="#">Продати техніку</a></button>
+                </div>
+            </header>
+            <div class="promo__wrapper">
+                <div class="promo__text">
+                    <h1 class="promo__header">Сільськогосподарська техніка для всіх</h1>
+                    <h3 class="promo__subheader">Продавай. Купуй. Користуйся!</h3>
+                </div>
+                <div class="promo__search" id="search">
+                    <div class="container">
+                        <input type="text" placeholder="Search...">
+                        <div class="search animate__animated animate__bounce"></div>
+                    </div>
+                </div>
+                <div class="promo__down-arrow"><a href="#selection"><img src="img/icon/down-arrow.png" alt=""></a></div>
+            </div>
+        </div>
+    </section>
+    <main>
+        <section class="selection" id="selection">
+            <div class="container">
+                <div class="selection__title">Каталог техніки</div>
+                <div class="selection__wrapper">
+                    <div class="selection__item">
+                        <a href="#"><img src="img/selection/traktor.svg" alt=""></a>
+                        <div class="selection__item-name">Трактори</div>
+                    </div>
+                    <div class="selection__item">
+                        <a href="#"><img src="img/selection/combain.svg" alt=""></a>
+                        <div class="selection__item-name">Комбайни</div>
+                    </div>
+                    <div class="selection__item">
+                        <a href="#"><img src="img/selection/reaper.svg" alt=""></a>
+                        <div class="selection__item-name">Жатки</div>
+                    </div>
+                    <div class="selection__item">
+                        <a href="#"><img src="img/selection/sowing equipment.svg" alt=""></a>
+                        <div class="selection__item-name">Посівна та садильна техніка</div>
+                    </div>
+                    <div class="selection__item">
+                        <a href="#"><img src="img/selection/watering.svg" alt=""></a>
+                        <div class="selection__item-name">Техніка для поливу та зрошування</div>
+                    </div>
+                    <div class="selection__item">
+                        <a href="#"><img src="img/selection/transport.svg" alt=""></a>
+                        <div class="selection__item-name">Техніка для транспортування</div>
+                    </div>
+                    <div class="selection__item">
+                        <a href="#"><img src="img/selection/garden.svg" alt=""></a>
+                        <div class="selection__item-name">Техніка для саду та городу</div>
+                    </div>
+                    <div class="selection__item">
+                        <a href="#"><img src="img/selection/fertilizers.svg" alt=""></a>
+                        <div class="selection__item-name">Техніка для внесення добрив</div>
+                    </div>
+                    <div class="selection__item">
+                        <a href="#"><img src="img/selection/tillage machinery.svg" alt=""></a>
+                        <div class="selection__item-name">Грунтообробна техніка</div>
+                    </div>
+                    <div class="selection__item">
+                        <a href="#promo__header">Перейти до пошуку<img src="img/icon/search.svg" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="catalog">
+            <div class="container">
+                <div class="catalog__items">
+                    <div class="catalog__item">
+                        <div class="catalog__item-img">
+                            <img src="img/base/main__bg.jpg" alt="slide">
+                        </div>
+                        <div class="catalog__item-content">
+                            <div class="catalog__item-name">John deer</div>
+                            <div class="catalog__item-price">56000$</div>
+                            <div class="catalog__item-year">2014</div>
+                            <div class="catalog__item-type">Комбайн</div>
+                        </div>
+                        <div class="catalog__item-buttons">
+                            <div class="catalog__item-numButton"><a href="#">Дізнатись номер</a></div>
+                            <div class="catalog__item-likeButton">
+                                <svg class="heart-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                                    <path fill="white" stroke="black" stroke-width="2" d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+                                </svg>
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="catalog__item">
+                        <div class="catalog__item-img">
+                            <img src="img/base/main__bg.jpg" alt="slide">
+                        </div>
+                        <div class="catalog__item-content">
+                            <div class="catalog__item-name">John deer</div>
+                            <div class="catalog__item-price">56000$</div>
+                            <div class="catalog__item-year">2014</div>
+                            <div class="catalog__item-type">Комбайн</div>
+                        </div>
+                        <div class="catalog__item-buttons">
+                            <div class="catalog__item-numButton"><a href="#">Дізнатись номер</a></div>
+                            <div class="catalog__item-likeButton">
+                                <svg class="heart-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                                    <path fill="white" stroke="black" stroke-width="2" d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+                                </svg>
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="catalog__item">
+                        <div class="catalog__item-img">
+                            <img src="img/base/main__bg.jpg" alt="slide">
+                        </div>
+                        <div class="catalog__item-content">
+                            <div class="catalog__item-name">John deer</div>
+                            <div class="catalog__item-price">56000$</div>
+                            <div class="catalog__item-year">2014</div>
+                            <div class="catalog__item-type">Комбайн</div>
+                        </div>
+                        <div class="catalog__item-buttons">
+                            <div class="catalog__item-numButton"><a href="#">Дізнатись номер</a></div>
+                            <div class="catalog__item-likeButton">
+                                <svg class="heart-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                                    <path fill="white" stroke="black" stroke-width="2" d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+                                </svg>
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="catalog__item">
+                        <div class="catalog__item-img">
+                            <img src="img/base/main__bg.jpg" alt="slide">
+                        </div>
+                        <div class="catalog__item-content">
+                            <div class="catalog__item-name">John deer</div>
+                            <div class="catalog__item-price">56000$</div>
+                            <div class="catalog__item-year">2014</div>
+                            <div class="catalog__item-type">Комбайн</div>
+                        </div>
+                        <div class="catalog__item-buttons">
+                            <div class="catalog__item-numButton"><a href="#">Дізнатись номер</a></div>
+                            <div class="catalog__item-likeButton">
+                                <svg class="heart-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                                    <path fill="white" stroke="black" stroke-width="2" d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+                                </svg>
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="catalog__item">
+                        <div class="catalog__item-img">
+                            <img src="img/base/main__bg.jpg" alt="slide">
+                        </div>
+                        <div class="catalog__item-content">
+                            <div class="catalog__item-name">John deer</div>
+                            <div class="catalog__item-price">56000$</div>
+                            <div class="catalog__item-year">2014</div>
+                            <div class="catalog__item-type">Комбайн</div>
+                        </div>
+                        <div class="catalog__item-buttons">
+                            <div class="catalog__item-numButton"><a href="#">Дізнатись номер</a></div>
+                            <div class="catalog__item-likeButton">
+                                <svg class="heart-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                                    <path fill="white" stroke="black" stroke-width="2" d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+                                </svg>
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="catalog__item">
+                        <div class="catalog__item-img">
+                            <img src="img/base/main__bg.jpg" alt="slide">
+                        </div>
+                        <div class="catalog__item-content">
+                            <div class="catalog__item-name">John deer</div>
+                            <div class="catalog__item-price">56000$</div>
+                            <div class="catalog__item-year">2014</div>
+                            <div class="catalog__item-type">Комбайн</div>
+                        </div>
+                        <div class="catalog__item-buttons">
+                            <div class="catalog__item-numButton"><a href="#">Дізнатись номер</a></div>
+                            <div class="catalog__item-likeButton">
+                                <svg class="heart-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                                    <path fill="white" stroke="black" stroke-width="2" d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+                                </svg>
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="catalog__item">
+                        <div class="catalog__item-img">
+                            <img src="img/base/main__bg.jpg" alt="slide">
+                        </div>
+                        <div class="catalog__item-content">
+                            <div class="catalog__item-name">John deer</div>
+                            <div class="catalog__item-price">56000$</div>
+                            <div class="catalog__item-year">2014</div>
+                            <div class="catalog__item-type">Комбайн</div>
+                        </div>
+                        <div class="catalog__item-buttons">
+                            <div class="catalog__item-numButton"><a href="#">Дізнатись номер</a></div>
+                            <div class="catalog__item-likeButton">
+                                <svg class="heart-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                                    <path fill="white" stroke="black" stroke-width="2" d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+                                </svg>
+                            </div>
+                        </div>                                            
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script type="text/javascript" src="//code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="js/slick.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

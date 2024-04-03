@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Результати пошуку</title>
+</head>
+<body>
+    <main>
+        <h1>Результати пошуку</h1>
+        <div class="catalog" id="results"></div>
+    </main>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const urlParams = new URLSearchParams(window.location.search);
+            const searchTerm = urlParams.get('search');
+            const resultsContainer = document.getElementById('results');
+            const catalogItems = document.querySelectorAll('.catalog__item-name');
+
+            resultsContainer.innerHTML = `<h2>Результати для: ${searchTerm}</h2>`;
+
+            catalogItems.forEach(item => {
+                const itemName = item.textContent.trim();
+                if (itemName.toLowerCase().includes(searchTerm.toLowerCase())) {
+                    resultsContainer.innerHTML += `<div>${itemName}</div>`;
+                }
+            });
+        });
+    </script>
+</body>
+</html>
